@@ -1,8 +1,8 @@
 ---
 title: NSTimer 在 dealloc 里能销毁么?
 date: 2023-09-10 08:00:00 +0800
-categories: [js]
-tags: [vue]
+categories: [iOS]
+tags: [OC]
 ---
 
 在 Objective-C 中，`NSTimer` 是一个常用的计时器类，用于定时执行特定的代码。然而，`NSTimer` 的使用也带来了一个潜在的内存管理问题：如果不正确处理，它会导致对象无法被正常销毁，进而造成内存泄漏。这篇文章将深入探讨为什么 `NSTimer` 需要在 `dealloc` 方法中手动销毁，以及如何正确地实现这一点。
