@@ -16,7 +16,7 @@ timezone: Asia/Shanghai
 
 title: 好奇猫 # the main title
 
-tagline: 啥都想问 # it will display as the sub-title
+tagline: 扎实的知识得经得起细问 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
